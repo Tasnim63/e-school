@@ -1,39 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+button {
+  border: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --primary-color: #21b573;
+}
+.primary-button {
+  padding: 6px 28px;
+  gap: 10px;
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
+  background: #21b573;
+  border-radius: 33px;
 }
-button{
-    border: none;
+img {
+  object-fit: cover;
 }
-a{
-    list-style: none;
-    text-decoration: none;
-}
-:root{
-    --primary-color:#21B573;
-}
-.primary-button{
-
-padding: 6px 28px;
-gap: 10px;
-
-background: #21B573;
-border-radius: 33px;
-}
-/*********************header ************************** */
+/*********************
+               header 
+************************** */
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(0 0 0);
-    line-height: 24px;
-    font-size: 16px;
+  color: rgb(0 0 0);
+  line-height: 24px;
+  font-size: 16px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--primary-color);
-  
+  color: var(--primary-color);
 }
-.hero-section{
-    background: #F0FFF0;
+/* ***********************
+                  hero section
+*************************** */
+.hero-section {
+  min-height: 100vh;
+}
+.hero-section {
+  background: #f0fff0;
+}
+.btn-border {
+  border: 1px solid black;
+}
+/* ********************
+     feature card section
+******************** */
+.feature-content {
+  background: #f8fffb;
+  padding: 50px 0;
+  border-radius: 10px;
+}
+.feature-content:hover {
+  transition: 0.5s;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+.feature-content h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.feature-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+/* *******************
+             courses card section
+********************** */
+.course-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+}
+.course-card {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #413960;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #585859;
+}
+.card-icons {
+  color: #585859;
+}
+/* *************************
+        testimonial section
+********************* */
+.textimonial-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
 }
