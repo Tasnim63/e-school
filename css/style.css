@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 button {
   border: none;
@@ -12,6 +14,7 @@ a {
   list-style: none;
   text-decoration: none;
 }
+
 :root {
   --primary-color: #21b573;
 }
